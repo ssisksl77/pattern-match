@@ -101,7 +101,7 @@
 
 (comment
   ;; should return MOOYAHO
-  (mm [1 2]
+  (match [1 2]
       [a b] :where (do (println a b "왓숑...") false)
       "HI"
 
@@ -112,15 +112,19 @@
       "MOOYAHO"
 
       :else
-      "WTF")
+      "NEVER")
 
   (doseq [n (range 1 101)]
     (println
-     (mm [(mod n 3) (mod n 5)]
+     (match [(mod n 3) (mod n 5)]
                [0 0] (str "FizzBuzz")
                [0 _] (str "Fizz")
                [_ 0] (str "Buzz")
                :else n)))
 
+  (match [1 2]
+      [a b] (if (= a 1) (throw backtrack-exception))
+      [c e] "HERE"
+      :else "ELSE")
   ;;
   )
