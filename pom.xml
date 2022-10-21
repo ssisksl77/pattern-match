@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.ssisksl77</groupId>
   <artifactId>pattern-match</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <name>ssisksl77/pattern-match</name>
   <description>Less optimized, more extendable core.match.</description>
   <url>https://github.com/ssisksl77/pattern-match</url>
@@ -22,7 +22,7 @@
     <url>https://github.com/ssisksl77/pattern-match</url>
     <connection>scm:git:git://github.com/ssisksl77/pattern-match.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/ssisksl77/pattern-match.git</developerConnection>
-    <tag>v0.0.4</tag>
+    <tag>0.0.5</tag>
   </scm>
   <dependencies>
     <dependency>

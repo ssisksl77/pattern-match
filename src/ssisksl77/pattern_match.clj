@@ -39,7 +39,7 @@
   "예외를 잡는 자료구조 추가"
   [& body]
   `(catch Exception e#
-     (if (identical? e# ~'backtrack-exception)
+     (if (identical? e# ~backtrack-symbol)
        (do
          ~@body)
        (throw e#))))
