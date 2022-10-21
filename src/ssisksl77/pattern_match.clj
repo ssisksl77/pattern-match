@@ -29,6 +29,9 @@
 
 (def backtrack-exception (Exception. "BackTrack!"))
 
+(def backtrack-symbol
+  'ssisksl77.pattern-match/backtrack-exception)
+
 (defn backtrack! []
   (throw backtrack-exception))
 
