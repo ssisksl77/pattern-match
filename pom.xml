@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.clojars.yhnam</groupId>
+  <groupId>com.github.ssisksl77</groupId>
   <artifactId>pattern-match</artifactId>
-  <version>0.0.2</version>
-  <name>yhnam/pattern-match</name>
-  <description>Less optimized, more extendable `core.match`.</description>
+  <version>0.0.2-SNAPSHOT</version>
+  <name>ssisksl77/pattern-match</name>
+  <description></description>
   <url>https://github.com/ssisksl77/pattern-match</url>
   <licenses>
     <license>
-      <name>Apache License License</name>
+      <name>Apache License</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
@@ -20,9 +20,9 @@
   </developers>
   <scm>
     <url>https://github.com/ssisksl77/pattern-match</url>
-    <connection>scm:git:git://github.com/yhnam/pattern-match.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/yhnam/pattern-match.git</developerConnection>
-    <tag>0.0.2</tag>
+    <connection>scm:git:git://github.com/ssisksl77/pattern-match.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ssisksl77/pattern-match.git</developerConnection>
+    <tag>v0.0.2-SNAPSHOT</tag>
   </scm>
   <dependencies>
     <dependency>

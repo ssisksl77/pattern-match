@@ -1,4 +1,4 @@
-# yhnam/pattern-match
+# ssisksl77/pattern-match
 
 Less optimized, more extendable `core.match`.
 
@@ -6,7 +6,7 @@ Less optimized, more extendable `core.match`.
 
 ### :where
 
-`yhnam/pattern-match` doesn't have guards but `:where`
+`ssisksl77/pattern-match` doesn't have guards but `:where`
 ``` clj
 (require '[yhnam.pattern-match :as pm])
 (match [1 2]
@@ -27,7 +27,7 @@ Less optimized, more extendable `core.match`.
 ### just throw Exception
 
 ``` clj
-(require '[yhnam.pattern-match :as pm')
+(require '[ssisksl77.pattern-match :as pm')
 (match [1 2]
       [a b] (when (= a 1) (backtrack!))
       [c e] "HERE"
