@@ -3,8 +3,8 @@
   (:require [clojure.tools.build.api :as b] ; for b/git-count-revs
             [org.corfield.build :as bb]))
 
-(def lib 'net.clojars.younghwan-nam/pattern-match)
-(def version "0.0.1")
+(def lib 'com.github.ssisksl77/pattern-match)
+(def version "0.0.2")
 #_ ; alternatively, use MAJOR.MINOR.COMMITS:
 (def version (format "1.0.%s" (b/git-count-revs nil)))
 
