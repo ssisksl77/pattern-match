@@ -4,7 +4,7 @@
   <groupId>net.clojars.yhnam</groupId>
   <artifactId>pattern-match</artifactId>
   <version>0.0.2</version>
-  <name>ssisksl77/pattern-match</name>
+  <name>yhnam/pattern-match</name>
   <description>Less optimized, more extendable `core.match`.</description>
   <url>https://github.com/ssisksl77/pattern-match</url>
   <licenses>
