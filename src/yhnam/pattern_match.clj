@@ -29,6 +29,9 @@
 
 (def backtrack-exception (Exception. "BackTrack!"))
 
+(defn backtrack! []
+  (throw backtrack-exception))
+
 (defn catch-error
   "예외를 잡는 자료구조 추가"
   [& body]
@@ -99,6 +102,9 @@
                 res))]
     `(yhnam-match ~m-pred ~@(apply concat res))))
 
+(yhnam-match [1 2]
+             [a b] "HI"
+             :else "??")
 (comment
   ;; should return MOOYAHO
   (match [1 2]
@@ -123,7 +129,7 @@
                :else n)))
 
   (match [1 2]
-      [a b] (if (= a 1) (throw backtrack-exception))
+      [a b] (if (= a 1) (backtrack!))
       [c e] "HERE"
       :else "ELSE")
   ;;

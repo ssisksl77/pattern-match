@@ -29,7 +29,7 @@ Less optimized, more extendable `core.match`.
 ``` clj
 (require '[yhnam.pattern-match :as pm')
 (match [1 2]
-      [a b] (if (= a 1) (throw backtrack-exception))
+      [a b] (when (= a 1) (backtrack!))
       [c e] "HERE"
       :else "ELSE")
 ;; => "HERE"
