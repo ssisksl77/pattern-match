@@ -8,7 +8,7 @@ Less optimized, more extendable `core.match`.
 
 `ssisksl77/pattern-match` doesn't have guards but `:where`
 ``` clj
-(require '[yhnam.pattern-match :as pm])
+(require '[ssisksl77.pattern-match :as pm])
 (match [1 2]
       [a b] :where (do (println a b "왓숑...") false)
       "HI"
@@ -67,7 +67,7 @@ variables (requires the `ci` task be run first):
 
     $ clojure -T:build deploy
 
-Your library will be deployed to net.clojars.yhnam/pattern-match on clojars.org by default.
+Your library will be deployed to com.github.ssisksl77/pattern-match on clojars.org by default.
 
 ## License
 
