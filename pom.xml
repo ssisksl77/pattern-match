@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.clojars.yhnam</groupId>
   <artifactId>pattern-match</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <name>yhnam/pattern-match</name>
-  <description>FIXME: my new library.</description>
-  <url>https://github.com/yhnam/pattern-match</url>
+  <version>0.0.2</version>
+  <name>ssisksl77/pattern-match</name>
+  <description>Less optimized, more extendable `core.match`.</description>
+  <url>https://github.com/ssisksl77/pattern-match</url>
   <licenses>
     <license>
-      <name>Eclipse Public License</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <name>Apache License License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
   <developers>
@@ -19,10 +19,10 @@
     </developer>
   </developers>
   <scm>
-    <url>https://github.com/yhnam/pattern-match</url>
+    <url>https://github.com/ssisksl77/pattern-match</url>
     <connection>scm:git:git://github.com/yhnam/pattern-match.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/yhnam/pattern-match.git</developerConnection>
-    <tag>v0.1.0-SNAPSHOT</tag>
+    <tag>0.0.2</tag>
   </scm>
   <dependencies>
     <dependency>
