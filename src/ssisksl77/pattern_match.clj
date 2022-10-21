@@ -102,9 +102,6 @@
                 res))]
     `(yhnam-match ~m-pred ~@(apply concat res))))
 
-(yhnam-match [1 2]
-             [a b] "HI"
-             :else "??")
 (comment
   ;; should return MOOYAHO
   (match [1 2]
